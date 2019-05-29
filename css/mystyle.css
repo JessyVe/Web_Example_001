@@ -1,0 +1,126 @@
+body {
+	background-color: whitesmoke;
+	font-family: 'Alegreya Sans'; /*Tahoma, Geneva, Sans-Serif;*/	
+}
+
+p, span {
+	font-size: 1.2em;
+}
+
+hr {
+	border-color: darkgrey;	
+	margin: 0em 1em;
+}
+
+section {
+	width: 72%;
+	margin-bottom: 5em;
+	margin-Left: 14%;
+	margin-right: 14%;
+}
+
+footer {
+	background-color: darkgrey;
+	width: 100%;
+	left: 0;
+}
+
+.header {
+	font-family: 'Allura';	
+	align-content: center;
+	letter-spacing: 0.5em; 
+	z-index:1;
+}
+
+.header h1 {
+	font-size: 3em;
+}
+
+.header h2 {
+	font-size: 2em;
+}
+
+/* Navigation Bar styles */
+.navbar {
+  width: 72%;
+  overflow: hidden; 
+  background-color: whitesmoke;
+  opacity: 0.95;
+  position: fixed;
+  z-index: 100;
+}
+
+.navbar a { 
+  margin: 1em;
+  color: darkgrey;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.rigthAlign {
+	float:right;
+}
+.leftAlign {
+	float:left;
+}
+
+.navbar a:hover {
+  font-style: italic;
+}
+
+/* Flex container - Center */
+.container { 
+  float: left;
+  width: 100%;
+  flex-wrap: wrap;  
+  display: flex;  
+}	
+
+.centerContainer { 
+  align-content:  center;
+  justify-content: center;
+}
+
+.flexItem {
+	margin: 0.4em;
+}
+.flexItemHalf {
+	width: 50%;
+}
+.flexItemThird {
+	width: 30%;
+}
+.flexItemCoverTopItem {
+	margin-top: -5em;
+}
+
+/* Text container*/
+.flexItemText {
+	opacity: 0.85;	
+	z-index: 10;	
+	padding: 2em;
+	background-color: #e8e8e8;	
+}
+
+.flexItemTextContainerHorizontalFilling {
+	width: 90%;
+	height: 40%;	
+}
+
+
+/* Image container*/
+.flexItemImageContainerSmall {
+	width: 29%;
+}
+.flexItemImageContainerSmall img {
+	width: 100%;
+}
+
+.flexItemImageContainer {
+	width: 55%;
+}
+.flexItemImageContainer img {
+	width: 100%;
+}
