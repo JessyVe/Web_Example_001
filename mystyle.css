@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+	background-color: #222222;
+	margin: 0px;
+	color: whitesmoke;
+}
+
+video {
+	width: 100%;
+	height: 100%;
+}
+
+a {
+	color: whitesmoke;	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Verdana, Sans-Serif;
+	font-weight: bold;
+}
+
+body {
+	font-family: Georgia, Serif;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+
+ul {
+	list-style:none; 
+}
+
+table {
+	width: 100%;
+}
+
+td {
+	min-width: 50%;
+}
+
+#smallParagraph{
+	font-size: 1vw;
+	font-weight: 100;
+}
+
+.linkedImage:hover {
+	opacity: 0.7;
+}
+
+.headingstyle:before,
+.headingstyle:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: solid 1px;
+  border-top: none;
+  border-bottom: none;
+  transform: skew(45deg);  
+}
+.headingstyle:after {
+  transform: skew(-45deg)
+}
+
+/* Custom styles */
+
+.siteheading {
+	color:whitesmoke; 
+	font-size: 1.3vw;	
+	font-weight: 100;
+	padding-left: 1em;
+	float: left!important;
+}
+
+.header {	
+  height: 100%;    
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.headerdiv {
+	position: absolute;
+	width: 60%;
+	height: 50%;
+	margin: 10% 30% 20% 20%;	
+	color: whitesmoke;	
+	opacity: 0.8;
+}
+
+.rightBorder {
+	border-right:0.2vw solid white;	
+}
+
+.headerdiv h1 {
+	font-size: 8vw;
+	margin-bottom: -15%;
+}
+
+/* Style for navigation bar */
+.navbar {
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  height: 8%;
+  z-index: 100;
+  position: fixed;
+  opacity: 0.95;  
+    
+  background-color: #222222;
+  box-shadow: 0px 2px 5px black;
+}
+
+.navbar a {	
+  color: white;
+  text-align: center;
+  height: 100%;
+  padding: 1.5%;
+  text-decoration: none;
+}
+
+.navbarLink {	
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Flex container - Center */
+.flexcontainer { 
+  float: left;
+  min-width: 70%!Important;
+  flex-wrap: wrap;  
+  display: flex;  
+  margin-left: 15%;
+  margin-bottom: 5%;
+  margin-right: 15%;
+  width: 30%;  
+  font-weight: lighter;
+}
+.flexItemThird {
+	width: 33%;
+}
+.flexItemHalf{
+	width: 50%;
+}
+.textItem {
+	padding: 1vw;
+	font-size: 1.3vw;
+}
+
+.fullWidth {	
+	width: 70%;
+}
+
+.textItemCenter {
+	text-align: center;
+}
+
+.textItem h2 {
+	margin-bottom: -1vw;
+}
+
+/* Footer */
+footer {
+  float:left;
+  color: whitesmoke;
+  height: 10%;
+  width: 100%;
+  text-align: center;
+  
+  box-shadow: 0px 2px 5px black;
+}
