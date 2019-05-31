@@ -118,8 +118,7 @@ td {
 .navbar a {	
   color: white;
   text-align: center;
-  padding: 1vw 2vw;
-  height: 100%;
+  margin: 1.5%;
   text-decoration: none;
 }
 
