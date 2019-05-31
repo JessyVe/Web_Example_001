@@ -118,7 +118,8 @@ td {
 .navbar a {	
   color: white;
   text-align: center;
-  margin: 1.5%;
+  height: 100%;
+  padding: 1.5%;
   text-decoration: none;
 }
 
